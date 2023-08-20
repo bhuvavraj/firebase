@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login_activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        android:id="@+id/edittxt1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:background="@drawable/line"
+        android:drawableLeft="@drawable/baseline_email_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:id="@+id/edittxt2"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:background="@drawable/line"
+        android:drawableLeft="@drawable/baseline_vpn_key_24">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password?"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="10dp"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="login"
+        android:id="@+id/btnlogin"
+        android:background="@drawable/button_bg"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view-data"
+        android:textSize="30dp"
+        android:layout_gravity="center"></TextView>
+
+
+
+
+
+
+</LinearLayout>
